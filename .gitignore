@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+/npm/
+/.yarn/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+
+# IDE settings
+.vscode/
+
+# Node package manager lock files
+yarn.lock
+package-lock.json
+
+# Images folder - Track folder but not its contents
+images/*
+!images/.gitignore
+
+# SSL/TLS certificates
+server.cert
+server.key
+
+# Windows system files
+Thumbs.db
+desktop.ini

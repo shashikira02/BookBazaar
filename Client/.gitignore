@@ -1,0 +1,19 @@
+# dependencies
+/node_modules
+
+# Environment files
+.env
+
+# IDE settings
+.vscode/
+
+# Node package manager files 
+.npm/
+.yarn/
+yarn.lock
+package-lock.json
+
+# Windows system files 
+Thumbs.db
+desktop.ini
+
