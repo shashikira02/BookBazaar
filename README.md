@@ -1,15 +1,12 @@
-# ClickCart
+# BookBazaar
 
-ClickCart is a mini online shopping web application built with the MERN stack (MongoDB, Express.js, React, Node.js) that offers most of the features used in an online shopping platform such as products, cart, checkout, pagination, payments, and more.
+BookBazaar is a online BookStore web application built with the MERN stack (MongoDB, Express.js, React, Node.js) that offers most of the features used in an online shopping platform such as products, view, read, pagination, payments, and more.
 
 ## Features
 
 - User sign-up and authentication
-- Password reset through email notifications
 - Pagination
-- Email notifications for successful logins
 - Image uploads
-- Stripe payment integration
 - Add, edit, update, and delete products as a Vendor
 
 ## Getting Started
@@ -22,15 +19,12 @@ Follow the instructions below to have a copy of this project up and running on y
 - **Express.js**: A Node.js web application framework used to build APIs and handle server-side middleware efficiently.
 - **NPM**: A package manager for Node.js software packages (comes bundled with Node.js).
 - **MongoDB installation**: Familiarity with setting up and using MongoDB.
-- **Stripe account**: Or knowledge of any payment integration service.
-- **Nodemailer**: A tool used to send emails, such as Gmail notifications.
-
 
 ### Installing the Project
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/shashikira02/ClickCart.git
+   git clone https://github.com/shashikira02/BookBazaar.git
 2. Navigate to the Client folder:
    ```bash
    cd Client
@@ -56,14 +50,10 @@ Follow the instructions below to have a copy of this project up and running on y
    
 ### .env.example Brief
 
-- **USER**: Gmail used for sending emails
-- **APP_PASSWORD**: App password for the above Gmail from Google's 2-Step Verification
 - **MONGO_USER**: MongoDB user ID for the database
 - **MONGO_PASSWORD**: MongoDB password for the database
 - **MONGO_DEFAULT_DATABASE**: MongoDB database name
-- **STRIPE_KEY**: Stripe secret key for payment integration
 - **PORT**: Server port for the client
-- **SK**: JWT secret key for authentication
 
 ### Installing the Project
 
