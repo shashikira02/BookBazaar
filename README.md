@@ -55,7 +55,7 @@ Follow the instructions below to have a copy of this project up and running on y
 - **MONGO_DEFAULT_DATABASE**: MongoDB database name
 - **PORT**: Server port for the client
 
-### Installing the Project
+### Running the Project
 
 1. Navigate to the Client folder:
    ```bash
